@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+  
+  <!-- 如果不使用webpack进行打包，直接引入a.js，执行时会报错 -->
+  <!-- Uncaught ReferenceError: require is not defined -->
+  <!-- 因为在浏览器环境中，无法识别require -->
+  <!-- <script src="./src/a.js"></script> -->
+
+  <!-- 引入使用webpack打包出来的js文件 -->
+  <script src="./dist/bundle.min.js"></script>
+</body>
+</html>

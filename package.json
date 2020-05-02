@@ -1,0 +1,31 @@
+{
+  "name": "mywebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mypack": "node mypack/mypack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guohao1119/mywebpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guohao1119/mywebpack/issues"
+  },
+  "homepage": "https://github.com/guohao1119/mywebpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/generator": "^7.9.6",
+    "@babel/parser": "^7.9.6",
+    "@babel/traverse": "^7.9.6",
+    "babel-plugin-component": "^1.1.1",
+    "ejs": "^3.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
